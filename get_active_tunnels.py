@@ -14,7 +14,6 @@ tz = pytz.timezone("US/Eastern")
 with open("/home/adam/Dev/tunnel_dash/status.json","r") as f:
     tunnels= json.load(f)
 
-
 for device,info in tunnels.items():
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -32,7 +31,6 @@ for device,info in tunnels.items():
         info["status"] = "offline"
     except Exception as e:
         print(f"Unknown error [{device}]: {type(e)}")
-
 
 print(json.dumps(tunnels, indent=4))
 
