@@ -1,0 +1,22 @@
+{
+    "home": {
+        "port": 1234,
+        "status": "",
+        "last_online": ""
+    },
+    "basementbox": {
+        "port": 1235,
+        "status": "",
+        "last_online": ""
+    },
+    "murphbox": {
+        "port": 1236,
+        "status": "",
+        "last_online": ""
+    },
+    "phone": {
+        "port": 1237,
+        "status": "",
+        "last_online": ""
+    }
+}

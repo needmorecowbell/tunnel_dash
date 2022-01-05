@@ -1,0 +1,8 @@
+[Unit]
+Description=Populate tunnel statistic
+[Timer]
+OnBootSec=15
+OnUnitActiveSec=15
+AccuracySec=1ms
+[Install]
+WantedBy=timers.target

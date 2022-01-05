@@ -1,0 +1,11 @@
+[Unit] 
+Description=Check to see if tunnels are open 
+After=network.target
+
+
+[Service]
+User=adam
+ExecStart=/home/adam/Dev/tunnel_dash/get_active_tunnels.py
+
+
+

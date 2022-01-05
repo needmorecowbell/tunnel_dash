@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-auth": "^4.1.9"
+  }
+}
